@@ -1,0 +1,204 @@
+
+header{
+    background: url(img/bg-header.png) ;
+    background-size: cover;
+    width: 100%;
+}
+.navbar{
+    margin-right: 230px;
+    margin-left: 230px;
+}
+.collapse a{
+    color: #ffffff;
+    font-size:20px;
+}
+.collapse a:hover{
+    background: #ffff00;
+    color: #000000;
+    border-radius:7px;
+}
+
+.img__header{
+width: 100%;
+}
+#cont{
+    text-align: center;
+}
+.brujula_header{
+    text-align: center;
+    padding-top:200px;
+
+}
+.rumbo{
+    color: #ffff00;
+    font-size: 62PX;
+}
+.parrafo{
+    color: #ffffff;  
+    font-size:29px;
+
+}
+.empezar{
+    background-color: #ffff00;
+    border-radius:7px;
+    color: #808080;
+    font-size:30px; 
+    margin-bottom:200px;
+    margin-top:50px ;
+}
+.empezar:hover{
+    color: #000000;
+    border: #808080 solid 2px;
+}
+
+#container{
+    text-align: center;
+    padding-top: 50px;
+}
+#container p{
+    padding-bottom:50px;
+}
+
+.planes{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.inline{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.inline h3{
+    color: #ffff00;
+    padding:100px 100px 100px 100px;
+}
+.inline p{
+    font-size:20px;
+    text-align: center;
+    
+}
+.senderismo{
+    background: url(img/senderismo.png);
+    background-size: cover;
+   
+    
+}
+.canotaje{
+    background: url(img/canotaje.png);
+    background-size: cover;
+}
+.camping{
+    background: url(img/camping.png);
+    background-size: cover;
+}
+
+#destinos {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url(img/bg-destinos.png);
+    background-size:cover;
+    width: 100%;
+
+}
+.respon{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+#destinos p{
+    font-size: 30px;
+   padding-bottom:50px;
+}
+#destinos h2{
+    margin-bottom: 90px;
+    color:yellow;
+    font-size: 35px;
+    font-weight:bolder;  
+    padding-top: 50px;
+}
+.card-destinos{
+  color: #ffffff;
+}
+.contacto{
+    background-color: #ffff00;
+    width: 100%;
+}
+.contacto h2{
+    padding-top:40px;
+    padding-bottom:10px;
+    font-weight: bold;
+}
+.form{
+    display:flex;
+    justify-content: space-evenly;
+}
+.form section{
+    width: 40%;
+    padding-bottom: 50px;
+}
+.boton{
+    border-radius:2px;
+    border: 0px;
+    background:#4040407e;
+    margin-bottom:100px;
+    color: #ffffff;
+    width:10%;
+    padding-bottom:2px;
+
+}
+.boton:hover{
+    background: #808080;
+    border: #000000 solid 3px;
+    color: #ffff00;
+}
+.footer{
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+    .navbar {
+      margin-left: 0%;
+    }
+    .rumbo{
+        font-size: 40px;
+    }
+    .parrafo{
+        font-size: 22px;
+    }
+    .empezar{
+        font-size: 22px;
+    }
+    .planes{
+        font-size: 35px;
+    }
+    .inline{
+        display: block;
+        width: 90%;
+        margin-left:5%;
+    }
+    .respon{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .p{
+        text-align: center;
+    }
+    #destinos h2{
+       padding-top:50px;      
+    } 
+   
+    .divi{
+        margin-bottom:1px;
+        padding-bottom:10px;
+    }   
+    
+ 
+    .cont-botones button{
+        width:20%;
+    }
+}
